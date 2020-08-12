@@ -102,7 +102,7 @@ class eb
                 }
                 else if(cur_red<=200)
                 {
-                    System.out.println("Total Electricity Bill="+(100*2)+(cur_red-100)*5.50);
+                    System.out.println("Total Electricity Bill="+(100*3)+(cur_red-100)*5.50);
                     break;
                 }
                 else if(cur_red<=500)
@@ -112,7 +112,7 @@ class eb
                 }
                 else if(cur_red>500)
                 {
-                    System.out.println("Total Electricity Bill="+(100*2)+(100*3.50)+(200*5)+(cur_red-400)*8);
+                    System.out.println("Total Electricity Bill="+(100*2)+(100*3.50)+(200*5.50)+(cur_red-400)*8);
                     break;
                 }
             default:
